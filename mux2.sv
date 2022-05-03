@@ -6,14 +6,12 @@ module mux2 (
     output logic z           // Output
 );
 
-logic g1g1, g3g6, g2g4, g4g5, g5g6;
-
-
+logic g1g3, g3g6, g2g4, g4g5, g5g6;
 
 // Put your code here
 // ------------------
 
-NAND2 g1 (g1g3, sel, d1));
+NAND2 g1 (g1g3, sel, d1);
 NAND2 g2 (g2g4, sel, sel);
 NAND2 g3 (g3g6, g1g3, g1g3);
 NAND2 g4 (g4g5, d0, g2g4);
