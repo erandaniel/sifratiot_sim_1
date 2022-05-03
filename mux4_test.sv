@@ -28,16 +28,15 @@ module mux4_test;
         mux4_sel[0] = 1'b0;
         mux4_sel[1] = 1'b0; // will be changed to 1
         
-        #1000
+        #75
 
         mux4_sel[1] = 1'b1; 
 
-        #100
-        mux4_d0 = 1'b0;
+        #75
     
         mux4_sel[1] = 1'b0; // will be changed to 1
 
-        #100;
+        #75;
     
     end
 

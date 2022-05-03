@@ -20,16 +20,15 @@ module mux2_test;
         mux2_d0 = 1'b0;
         mux2_d1 = 1'b1;
         mux2_sel = 1'b0;
+        #25
         
-        #25
-        mux2_d0 = 1'b0;
-        mux2_d1 = 1'b1;
         mux2_sel = 1'b1;
-
         #25
-        mux2_d0 = 1'b0;
-        mux2_d1 = 1'b1;
-        mux2_d0 = 1'b0;
+
+        mux2_sel = 1'b0;
+
+        #25;
+
     
     end
 
