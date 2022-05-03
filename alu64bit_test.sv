@@ -19,18 +19,17 @@ module alu64bit_test;
     );
 
 
-
 initial begin
         alu_a = 64'hFFFF_FFFF_FFFF_FFFF;
-        alu_b = 64'hFFFF_FFFF_FFFF_FFFF;
-        alu_op = 2'b10;
-        alu_cin = 1'b1;
+        alu_b = 1;
+        alu_op = 2'b11;
+        alu_cin = 1'b0;
 
         #2000
+        alu_op[0] = 0;
 
-        alu_op = 2'b11;
+        #2000;
 
-         #2000;
     
     end
 

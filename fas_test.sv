@@ -23,7 +23,7 @@ module fas_test;
         fas_b = 1'b1;
         fas_cin = 1'b0;
         fas_a_ns = 1'b0;
-
+        
         fas_a = 1'b0;
 
         #50

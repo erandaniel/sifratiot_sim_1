@@ -1,0 +1,14 @@
+# vsim alu64bit_test 
+# Start time: 01:12:13 on May 04,2022
+# Loading sv_std.std
+# Loading work.alu64bit_test
+# Loading work.alu64bit
+# Loading work.alu1bit
+# Loading work.OR2
+# Loading work.NAND2
+# Loading work.XNOR2
+# Loading work.fas
+# Loading work.mux4
+# Loading work.mux2
+# End time: 01:12:18 on May 04,2022, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
