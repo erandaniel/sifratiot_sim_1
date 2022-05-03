@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/erand/OneDrive/Desktop/limodim/044252_sifratiot/HW/simulation1/sim1_files/libcells
+vNAND2
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1651522187
+!i10b 1
+!s100 zUXAICEQ6Na@H=GVjd>h30
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IoRZAIl]eWNDQi`KVMDoif2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1651520754
+8NAND2.sv
+FNAND2.sv
+!i122 3
+L0 1 11
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1651522187.000000
+!s107 NAND2.sv|
+!s90 -reportprogress|300|NAND2.sv|
+!i113 1
+Z5 tCvgOpt 0
+n@n@a@n@d2
+vNAND2_tb
+R1
+!s110 1651522188
+!i10b 1
+!s100 aE65n8_=jML?I7LJkVC9`0
+R2
+IDBj=:PI?eUD0JceIh8aD@2
+R3
+S1
+R0
+w1651521949
+8NAND2_tb.sv
+FNAND2_tb.sv
+!i122 4
+L0 1 28
+R4
+r1
+!s85 0
+31
+!s108 1651522188.000000
+!s107 NAND2_tb.sv|
+!s90 -reportprogress|300|NAND2_tb.sv|
+!i113 1
+R5
+n@n@a@n@d2_tb

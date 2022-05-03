@@ -8,33 +8,37 @@ module mux4_test;
     logic mux4_d1;
     logic mux4_d2;
     logic mux4_d3;
-    logic mux4_sel[1:0];
+    logic [1:0] mux4_sel;
+    logic z;
 
     mux4 uut (
         .d0(mux4_d0),
         .d1(mux4_d1),
         .d2(mux4_d2),
         .d3(mux4_d3),
-        .sel(mux4_sel[1:0])
+        .sel(mux4_sel[1:0]),
+        .z(z)
     );
 
     initial begin
-        ha_a = 1'b0;
-        ha_b = 1'b0;
+        mux4_d0 = 1'b0;
+        mux4_d1 = 1'b0;
+        mux4_d2 = 1'b1;
+        mux4_d3 = 1'b1;
+        mux4_sel[0] = 1'b0;
+        mux4_sel[1] = 1'b0; // will be changed to 1
         
-        #20
-        ha_a = 1'b1;
-        ha_b = 1'b0;
-        
-        #20
-        ha_a = 1'b0;
-        ha_b = 1'b1;
-        
-        #20
-        ha_a = 1'b1;
-        ha_b = 1'b1; 
+        #1000
 
-        #20;        
+        mux4_sel[1] = 1'b1; 
+
+        #100
+        mux4_d0 = 1'b0;
+    
+        mux4_sel[1] = 1'b0; // will be changed to 1
+
+        #100;
+    
     end
 
 // End of your code

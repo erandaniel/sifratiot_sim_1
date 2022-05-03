@@ -3,7 +3,6 @@ module NAND2 (
     input logic B,
     output logic Z
 );
-
 parameter Tpdlh = 10;
 parameter Tpdhl = 10;
 

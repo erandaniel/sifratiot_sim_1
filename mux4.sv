@@ -13,9 +13,9 @@ module mux4 (
 
 logic m1m3, m2m3;
 
-mux2 m1(m1m3, d0, d1, sel[0]);
-mux2 m2(m2m3, d2, d3, sel[0]);
-mux2 m3(z, m1m3, m2m3, sel[1]);
+mux2 m1(    .z(m1m3),   .d0(d0),    .d1(d1),     .sel(sel[0]));
+mux2 m2(    .z(m2m3),   .d0(d2),    .d1(d3),     .sel(sel[0]));
+mux2 m3(    .z(z),      .d0(m1m3),  .d1(m2m3),   .sel(sel[1]));
 
 // End of your code
 
